@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ContaFácil - Preguntas Frecuentes | Centro de Ayuda</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; color: #333; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #2E75B6, #1a4f7a); color: white; padding: 30px; border-radius: 8px; margin-bottom: 30px; }
+        .header h1 { margin: 0; font-size: 28px; }
+        .header p { margin: 5px 0 0; opacity: 0.85; }
+        .category { margin-bottom: 40px; }
+        .category h2 { color: #2E75B6; border-bottom: 2px solid #2E75B6; padding-bottom: 8px; }
+        .faq-item { background: white; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 12px; overflow: hidden; }
+        .faq-question { font-weight: 600; padding: 15px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question:hover { background: #f5f9ff; }
+        .faq-answer { padding: 0 20px 15px; color: #555; line-height: 1.6; }
+        .tag { display: inline-block; background: #e8f0fe; color: #2E75B6; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 5px; }
+        .updated { font-size: 11px; color: #999; margin-top: 5px; }
+        .note { background: #fff3cd; border-left: 4px solid #ffc107; padding: 10px 15px; margin: 10px 0; font-size: 14px; }
+        .important { background: #f8d7da; border-left: 4px solid #dc3545; padding: 10px 15px; margin: 10px 0; font-size: 14px; }
+        .tip { background: #d4edda; border-left: 4px solid #28a745; padding: 10px 15px; margin: 10px 0; font-size: 14px; }
+        table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+        table th { background: #2E75B6; color: white; padding: 8px 12px; text-align: left; }
+        table td { padding: 8px 12px; border: 1px solid #ddd; }
+        table tr:nth-child(even) { background: #f9f9f9; }
+        .breadcrumb { font-size: 13px; color: #777; margin-bottom: 15px; }
+        .sidebar-ad { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px; padding: 15px; margin: 20px 0; text-align: center; font-size: 14px; }
+        /* Contenido legacy mezclado intencionalmente */
+        .legacy-section { border: 1px dashed #ccc; padding: 15px; margin: 15px 0; background: #fffef5; }
+        .legacy-section .disclaimer { color: #b8860b; font-size: 12px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Centro de Ayuda ContaFácil</h1>
+        <p>Preguntas frecuentes y guías rápidas para nuestros clientes</p>
+    </div>
+
+    <div class="breadcrumb">Inicio &gt; Centro de Ayuda &gt; Preguntas Frecuentes</div>
+
+    <!-- SECCIÓN: PRIMEROS PASOS -->
+    <div class="category" id="primeros-pasos">
+        <h2>🚀 Primeros Pasos</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Cómo creo mi cuenta en ContaFácil?</div>
+            <div class="faq-answer">
+                <p>Crear tu cuenta es muy simple:</p>
+                <ol>
+                    <li>Ingresa a <strong>www.contafacil.cl/registro</strong></li>
+                    <li>Completa tus datos: RUT empresa, razón social, email y teléfono</li>
+                    <li>Elige tu plan (puedes empezar con el plan <strong>Emprendedor</strong> por solo 0.8 UF/mes)</li>
+                    <li>Ingresa tu medio de pago (tarjeta de crédito, débito o transferencia)</li>
+                    <li>¡Listo! ContaFácil te guiará paso a paso para configurar tu certificado digital y empezar a facturar</li>
+                </ol>
+                <div class="tip">💡 <strong>Tip:</strong> Los primeros 15 días son gratis en cualquier plan. No se cobra nada hasta que termine el período de prueba.</div>
+                <span class="tag">registro</span> <span class="tag">cuenta nueva</span>
+                <div class="updated">Última actualización: enero 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Qué necesito para empezar a facturar electrónicamente?</div>
+            <div class="faq-answer">
+                <p>Para emitir facturas electrónicas necesitas:</p>
+                <ul>
+                    <li><strong>RUT de empresa</strong> con inicio de actividades en el SII</li>
+                    <li><strong>Certificado digital</strong> (firma electrónica) vigente. Puedes obtener uno desde $5.990+IVA/año con E-Sign o desde $7.990+IVA/año con Acepta</li>
+                    <li><strong>Una cuenta en ContaFácil</strong> con cualquier plan</li>
+                </ul>
+                <p>ContaFácil se encarga automáticamente de solicitar la resolución del SII y los folios (CAF) necesarios. ¡No necesitas hacer trámites adicionales!</p>
+                <div class="note">⚠️ <strong>Nota:</strong> Si eres persona natural con boletas de honorarios, ContaFácil NO emite boletas de honorarios. Esas se emiten directamente en el portal del SII (www.sii.cl).</div>
+                <span class="tag">requisitos</span> <span class="tag">certificado digital</span> <span class="tag">SII</span>
+                <div class="updated">Última actualización: marzo 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿ContaFácil funciona en Mac / Linux / tablet?</div>
+            <div class="faq-answer">
+                <p>¡Sí! ContaFácil es 100% web (cloud). Funciona en cualquier navegador moderno:</p>
+                <ul>
+                    <li>Google Chrome (recomendado, versión 90+)</li>
+                    <li>Mozilla Firefox (versión 88+)</li>
+                    <li>Microsoft Edge (versión 90+)</li>
+                    <li>Safari (versión 14+)</li>
+                </ul>
+                <p>No necesitas instalar nada. Funciona en Windows, Mac, Linux, tablets y celulares (aunque para facturar recomendamos una pantalla de al menos 10 pulgadas para mejor experiencia).</p>
+                <span class="tag">compatibilidad</span> <span class="tag">navegadores</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN: FACTURACIÓN -->
+    <div class="category" id="facturacion">
+        <h2>📄 Facturación Electrónica</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Cuántas facturas puedo emitir por mes?</div>
+            <div class="faq-answer">
+                <p>Depende de tu plan:</p>
+                <table>
+                    <tr><th>Plan</th><th>Documentos/mes</th><th>Precio</th></tr>
+                    <tr><td>Emprendedor</td><td>50</td><td>0.8 UF/mes</td></tr>
+                    <tr><td>Emprendedor Plus</td><td>150</td><td>1.2 UF/mes</td></tr>
+                    <tr><td>PYME</td><td>500</td><td>2.5 UF/mes</td></tr>
+                    <tr><td>PYME Plus</td><td>1.000</td><td>3.8 UF/mes</td></tr>
+                    <tr><td>Profesional</td><td>300</td><td>1.5 UF/mes</td></tr>
+                    <tr><td>Profesional Multi</td><td>Ilimitado</td><td>4.2 UF/mes</td></tr>
+                    <tr><td>Empresa</td><td>Ilimitado</td><td>6.5 UF/mes</td></tr>
+                    <tr><td>Empresa Premium</td><td>Ilimitado</td><td>9.8 UF/mes</td></tr>
+                </table>
+                <p>Si necesitas más documentos que tu plan actual, ContaFácil te avisará cuando estés al 80% de tu cuota y te sugerirá un upgrade.</p>
+                <span class="tag">límites</span> <span class="tag">planes</span>
+                <div class="updated">Última actualización: febrero 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Qué hago si el SII rechaza mi factura?</div>
+            <div class="faq-answer">
+                <p>Si el SII rechaza tu factura, ContaFácil te mostrará el código de error específico. Los más comunes son:</p>
+                <ul>
+                    <li><strong>Error de RUT (código 2):</strong> El RUT del receptor es inválido. Verifica el dígito verificador. ContaFácil muestra error VALRUT-001.</li>
+                    <li><strong>Fecha fuera de rango (código 3):</strong> La fecha de emisión es anterior a 60 días o posterior a hoy. Corrige la fecha.</li>
+                    <li><strong>Folio inválido (código 10):</strong> Los folios se agotaron o están vencidos. Ve a Configuración > Folios para solicitar nuevos.</li>
+                    <li><strong>Firma inválida (código 15):</strong> Tu certificado digital expiró. Renuévalo con tu prestador y cárgalo en Configuración > Empresa.</li>
+                    <li><strong>Error de comunicación (código 106):</strong> Problema de conexión con el SII. ContaFácil reintenta automáticamente cada 5 minutos.</li>
+                </ul>
+                <div class="important">🔴 <strong>Importante:</strong> Si recibes el error código 99 (error de schema XML), NO intentes corregirlo tú mismo. Este es un error interno de ContaFácil y debes contactar a soporte técnico inmediatamente.</div>
+                <p><strong>Pasos para resolver un rechazo:</strong></p>
+                <ol>
+                    <li>Ve a Ventas > Documentos Emitidos > filtra por estado "Rechazado"</li>
+                    <li>Haz click en el documento rechazado para ver el detalle del error</li>
+                    <li>Corrige el problema según las indicaciones</li>
+                    <li>Click en "Reemitir" para generar un nuevo DTE con los datos corregidos</li>
+                </ol>
+                <span class="tag">errores SII</span> <span class="tag">rechazo</span> <span class="tag">solución</span>
+                <div class="updated">Última actualización: marzo 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Puedo emitir facturas en moneda extranjera (USD, EUR)?</div>
+            <div class="faq-answer">
+                <p>Sí, pero con condiciones:</p>
+                <ul>
+                    <li>Las <strong>facturas de exportación</strong> (código SII 110) se pueden emitir en USD, EUR u otras monedas. Disponible en planes Empresa y superiores.</li>
+                    <li>Las <strong>facturas nacionales</strong> (código 33) siempre deben ser en pesos chilenos (CLP), según normativa del SII.</li>
+                    <li>Para facturas nacionales, puedes indicar el equivalente en moneda extranjera en el campo "Referencia" como información adicional, pero el monto tributario siempre será en CLP.</li>
+                </ul>
+                <span class="tag">moneda extranjera</span> <span class="tag">exportación</span>
+            </div>
+        </div>
+
+        <!-- Sección legacy con info desactualizada intencionalmente -->
+        <div class="legacy-section">
+            <div class="disclaimer">⚡ Contenido migrado desde el antiguo centro de ayuda (2023) - puede contener información desactualizada</div>
+            <h3>Facturación desde Excel</h3>
+            <p>ContaFácil permite importar facturas masivamente desde un archivo Excel. El formato requerido es:</p>
+            <table>
+                <tr><th>Columna</th><th>Campo</th><th>Formato</th><th>Obligatorio</th></tr>
+                <tr><td>A</td><td>RUT receptor</td><td>XX.XXX.XXX-X</td><td>Sí</td></tr>
+                <tr><td>B</td><td>Razón social</td><td>Texto</td><td>No (se autocompleta)</td></tr>
+                <tr><td>C</td><td>Giro</td><td>Texto</td><td>No (se autocompleta)</td></tr>
+                <tr><td>D</td><td>Detalle</td><td>Texto</td><td>Sí</td></tr>
+                <tr><td>E</td><td>Cantidad</td><td>Número</td><td>Sí</td></tr>
+                <tr><td>F</td><td>Precio unitario</td><td>Número (neto, sin IVA)</td><td>Sí</td></tr>
+                <tr><td>G</td><td>Forma de pago</td><td>Contado/Crédito 30/60/90</td><td>No (default: Contado)</td></tr>
+            </table>
+            <p><strong>Ruta:</strong> Ventas > Importar > Desde Excel. Máximo 200 facturas por archivo.</p>
+            <p>También se puede usar formato CSV con los mismos campos separados por punto y coma (;).</p>
+        </div>
+    </div>
+
+    <!-- SECCIÓN: PLANES Y PRECIOS -->
+    <div class="category" id="planes-precios">
+        <h2>💰 Planes y Precios</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Cuál es la diferencia entre el plan Emprendedor y el plan Profesional?</div>
+            <div class="faq-answer">
+                <p>Aunque tienen precios similares, están diseñados para perfiles diferentes:</p>
+                <table>
+                    <tr><th>Característica</th><th>Emprendedor (0.8 UF/mes)</th><th>Profesional (1.5 UF/mes)</th></tr>
+                    <tr><td>Diseñado para</td><td>Microempresas con facturación propia</td><td>Contadores independientes</td></tr>
+                    <tr><td>Documentos/mes</td><td>50</td><td>300</td></tr>
+                    <tr><td>Usuarios</td><td>1</td><td>1</td></tr>
+                    <tr><td>Boletas electrónicas</td><td>Sí</td><td>Sí</td></tr>
+                    <tr><td>Conciliación bancaria</td><td>No</td><td>Sí</td></tr>
+                    <tr><td>Soporte telefónico</td><td>No</td><td>Sí</td></tr>
+                    <tr><td>Historial documentos</td><td>6 meses</td><td>12 meses</td></tr>
+                    <tr><td>Multi-RUT</td><td>No</td><td>No (ver Profesional Multi)</td></tr>
+                </table>
+                <p><strong>¿Cuándo elegir Emprendedor?</strong> Si eres una empresa pequeña que emite pocas facturas y no necesitas conciliación bancaria.</p>
+                <p><strong>¿Cuándo elegir Profesional?</strong> Si eres contador y necesitas más documentos, soporte telefónico y conciliación bancaria. Si manejas múltiples empresas/RUTs, mira el plan Profesional Multi (4.2 UF/mes) que permite hasta 10 RUTs.</p>
+                <span class="tag">comparativa</span> <span class="tag">emprendedor</span> <span class="tag">profesional</span>
+                <div class="updated">Última actualización: enero 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Puedo cambiar de plan en cualquier momento?</div>
+            <div class="faq-answer">
+                <p><strong>Upgrade (subir de plan):</strong> Se puede hacer en cualquier momento desde Configuración > Mi Plan > Cambiar Plan. El cambio es inmediato y se cobra la diferencia proporcional por los días restantes del ciclo de facturación.</p>
+                <p><strong>Downgrade (bajar de plan):</strong> Se aplica al final del ciclo de facturación actual. Antes de hacer downgrade, verifica que no excedas los límites del nuevo plan (documentos/mes, usuarios, historial). Si tienes módulos add-on que no son compatibles con el nuevo plan, se desactivarán automáticamente.</p>
+                <div class="note">⚠️ <strong>Nota:</strong> Al hacer downgrade, los documentos que excedan el historial del nuevo plan quedarán en Archivo Histórico (accesibles pero no editables).</div>
+                <span class="tag">cambio plan</span> <span class="tag">upgrade</span> <span class="tag">downgrade</span>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Cuánto cuesta agregar el módulo de remuneraciones?</div>
+            <div class="faq-answer">
+                <p>El módulo de <strong>Remuneraciones</strong> tiene un costo de <strong>1.5 UF/mes</strong> adicional a tu plan.</p>
+                <p>Está disponible como add-on en los planes: PYME Plus, Empresa y Empresa Premium (en Empresa y Empresa Premium viene incluido sin costo adicional).</p>
+                <p><strong>¿Qué incluye?</strong></p>
+                <ul>
+                    <li>Cálculo automático de sueldos bruto y líquido</li>
+                    <li>Descuentos legales: AFP, Isapre/Fonasa, seguro de cesantía</li>
+                    <li>Generación de liquidaciones de sueldo en PDF</li>
+                    <li>Libro de remuneraciones electrónico</li>
+                    <li>Integración con Previred para pago de cotizaciones previsionales</li>
+                    <li>Cálculo de gratificación legal (Art. 50 y Art. 47)</li>
+                    <li>Finiquitos y vacaciones proporcionales</li>
+                </ul>
+                <p>Para activarlo: Configuración > Módulos > Remuneraciones > Activar.</p>
+                <div class="tip">💡 <strong>Tip:</strong> Si tienes hasta 5 trabajadores y solo necesitas liquidaciones básicas, el módulo cubre todo lo que necesitas. Para nóminas de más de 50 trabajadores, recomendamos complementar con un software especializado de RRHH.</div>
+                <span class="tag">remuneraciones</span> <span class="tag">sueldos</span> <span class="tag">precio</span>
+                <div class="updated">Última actualización: febrero 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Hay descuento por pago anual?</div>
+            <div class="faq-answer">
+                <p>Sí. Todos los planes tienen un <strong>descuento equivalente a ~2 meses gratis</strong> al pagar anualmente:</p>
+                <table>
+                    <tr><th>Plan</th><th>Mensual</th><th>Anual</th><th>Ahorro</th></tr>
+                    <tr><td>Emprendedor</td><td>0.8 UF/mes</td><td>8.5 UF/año</td><td>1.1 UF</td></tr>
+                    <tr><td>PYME</td><td>2.5 UF/mes</td><td>27 UF/año</td><td>3.0 UF</td></tr>
+                    <tr><td>PYME Plus</td><td>3.8 UF/mes</td><td>41 UF/año</td><td>4.6 UF</td></tr>
+                    <tr><td>Empresa</td><td>6.5 UF/mes</td><td>70 UF/año</td><td>8.0 UF</td></tr>
+                </table>
+                <p>El pago anual se puede realizar con tarjeta de crédito (hasta 12 cuotas sin interés con tarjetas participantes) o transferencia bancaria.</p>
+                <span class="tag">descuentos</span> <span class="tag">pago anual</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN: REPORTES Y LIBROS -->
+    <div class="category" id="reportes">
+        <h2>📊 Reportes y Libros Contables</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Por qué no puedo ver los libros contables del mes anterior?</div>
+            <div class="faq-answer">
+                <p>Las causas más comunes son:</p>
+                <ol>
+                    <li><strong>Límite de historial del plan:</strong> El plan Emprendedor mantiene solo 6 meses de historial, el Emprendedor Plus 12 meses, PYME 24 meses, etc. Si necesitas más historial, considera hacer upgrade.</li>
+                    <li><strong>Filtro de fecha activo:</strong> Revisa que no tengas un filtro de período aplicado en Reportes > Libros. Haz click en "Limpiar filtros".</li>
+                    <li><strong>Período anterior al alta:</strong> Los libros de períodos anteriores a tu fecha de registro en ContaFácil no se generan automáticamente. Puedes importar datos históricos desde Configuración > Migrar Datos.</li>
+                    <li><strong>Archivo histórico:</strong> Los libros de períodos cerrados (después de declarar F29) se mueven automáticamente a Reportes > Archivo Histórico. Busca ahí.</li>
+                </ol>
+                <div class="tip">💡 <strong>Tip:</strong> Si necesitas un libro de un período ya archivado, también puedes exportarlo en PDF o Excel desde Archivo Histórico > Exportar.</div>
+                <span class="tag">libros</span> <span class="tag">historial</span> <span class="tag">archivo</span>
+                <div class="updated">Última actualización: enero 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Cómo exporto mis datos para la declaración F29?</div>
+            <div class="faq-answer">
+                <p>ContaFácil genera automáticamente la propuesta de declaración F29:</p>
+                <ol>
+                    <li>Ve a <strong>Reportes > Declaraciones > F29</strong></li>
+                    <li>Selecciona el período (mes/año)</li>
+                    <li>ContaFácil calcula automáticamente: IVA débito fiscal (ventas), IVA crédito fiscal (compras), PPM, retenciones de boletas de honorarios</li>
+                    <li>Revisa los montos y haz click en <strong>"Generar propuesta F29"</strong></li>
+                    <li>Se descarga un archivo que puedes subir directamente al portal del SII, o puedes usar los datos para llenar el formulario manualmente</li>
+                </ol>
+                <p>La propuesta F29 está disponible a partir del día 1 del mes siguiente al período declarado.</p>
+                <span class="tag">F29</span> <span class="tag">declaración</span> <span class="tag">impuestos</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN: MÓDULOS ADICIONALES -->
+    <div class="category" id="modulos">
+        <h2>🧩 Módulos Adicionales</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Qué módulos adicionales ofrece ContaFácil?</div>
+            <div class="faq-answer">
+                <p>ContaFácil ofrece los siguientes módulos add-on que puedes agregar a tu plan:</p>
+                <table>
+                    <tr><th>Módulo</th><th>Precio</th><th>Descripción</th></tr>
+                    <tr><td>Remuneraciones</td><td>1.5 UF/mes</td><td>Sueldos, liquidaciones, Previred. Disponible en PYME Plus+</td></tr>
+                    <tr><td>Inventario</td><td>1.0 UF/mes</td><td>Control de stock, kardex, alertas. Disponible en PYME Plus+</td></tr>
+                    <tr><td>Multi-Sucursal</td><td>0.8 UF/mes</td><td>Gestión de sucursales. Disponible en PYME Plus+</td></tr>
+                    <tr><td>Conciliación Bancaria Pro</td><td>0.6 UF/mes</td><td>Conciliación automática con bancos. Disponible en Emp. Plus+</td></tr>
+                    <tr><td>Reportes Avanzados</td><td>0.5 UF/mes</td><td>Dashboards y reportes gerenciales. Disponible en PYME+</td></tr>
+                    <tr><td>API Integraciones</td><td>1.2 UF/mes</td><td>API REST para ERP/CRM/e-commerce. Disponible en PYME+</td></tr>
+                    <tr><td>Fact. Internacional</td><td>2.0 UF/mes</td><td>Facturas electrónicas Perú/Colombia/México. Empresa+ (Beta)</td></tr>
+                    <tr><td>Cotizaciones</td><td>0.4 UF/mes</td><td>Cotizaciones y notas de venta. Todos (excepto Starter)</td></tr>
+                </table>
+                <p>Puedes activar y desactivar módulos en cualquier momento desde Configuración > Módulos.</p>
+                <span class="tag">módulos</span> <span class="tag">add-on</span> <span class="tag">precios</span>
+                <div class="updated">Última actualización: marzo 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿La conciliación bancaria es automática?</div>
+            <div class="faq-answer">
+                <p>Sí, ContaFácil ofrece conciliación bancaria automática con los principales bancos chilenos:</p>
+                <ul>
+                    <li>BancoEstado</li>
+                    <li>Banco de Chile</li>
+                    <li>Santander</li>
+                    <li>BCI</li>
+                    <li>Scotiabank</li>
+                    <li>Itaú</li>
+                    <li>BICE</li>
+                </ul>
+                <p><strong>¿Cómo funciona?</strong> ContaFácil se conecta al banco mediante OAuth (autorización segura del banco) y sincroniza los movimientos automáticamente. Luego cruza los movimientos bancarios con tus documentos emitidos y recibidos.</p>
+                <p><strong>Frecuencia de sincronización:</strong></p>
+                <ul>
+                    <li>Planes Emprendedor Plus, PYME y Profesional: cada 4 horas</li>
+                    <li>Planes Empresa y superiores: cada hora</li>
+                    <li>También puedes forzar una sincronización manual en cualquier momento</li>
+                </ul>
+                <p>La conciliación automática está incluida en los planes Emprendedor Plus y superiores. Para el módulo Pro (con reglas de conciliación personalizadas), el costo es 0.6 UF/mes adicional.</p>
+                <span class="tag">conciliación</span> <span class="tag">bancos</span> <span class="tag">automática</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN: SOPORTE -->
+    <div class="category" id="soporte">
+        <h2>🎧 Soporte y Contacto</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Qué tipo de soporte incluye mi plan?</div>
+            <div class="faq-answer">
+                <table>
+                    <tr><th>Plan</th><th>Email</th><th>Chat</th><th>Teléfono</th><th>Dedicado</th><th>Horario</th></tr>
+                    <tr><td>Emprendedor</td><td>✓</td><td>—</td><td>—</td><td>—</td><td>Lun-Vie 9-18h</td></tr>
+                    <tr><td>Emprendedor Plus</td><td>✓</td><td>✓</td><td>—</td><td>—</td><td>Lun-Vie 9-18h</td></tr>
+                    <tr><td>PYME / PYME Plus</td><td>✓</td><td>✓</td><td>✓</td><td>—</td><td>Lun-Vie 8-20h</td></tr>
+                    <tr><td>Profesional / Prof. Multi</td><td>✓</td><td>✓</td><td>✓</td><td>Solo Multi</td><td>Lun-Sáb 8-20h</td></tr>
+                    <tr><td>Empresa</td><td>✓</td><td>✓</td><td>✓</td><td>—</td><td>Lun-Sáb 8-22h</td></tr>
+                    <tr><td>Empresa Premium</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>24/7</td></tr>
+                    <tr><td>Corporativo</td><td>✓</td><td>✓</td><td>✓</td><td>✓ + SLA</td><td>24/7</td></tr>
+                </table>
+                <p><strong>Canales de contacto:</strong></p>
+                <ul>
+                    <li>Email: soporte@contafacil.cl</li>
+                    <li>Chat: Botón en esquina inferior derecha de la plataforma</li>
+                    <li>Teléfono: +56 2 2345 6789</li>
+                    <li>Portal web: ayuda.contafacil.cl/ticket</li>
+                </ul>
+                <span class="tag">soporte</span> <span class="tag">contacto</span> <span class="tag">horarios</span>
+                <div class="updated">Última actualización: febrero 2026</div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Tienen API para integrar con mi sistema?</div>
+            <div class="faq-answer">
+                <p>Sí. ContaFácil ofrece una <strong>API REST</strong> completa para integrar con ERPs, CRMs, sistemas de e-commerce, y cualquier otro software.</p>
+                <p><strong>Disponibilidad:</strong> Planes PYME, PYME Plus, Profesional Multi, Empresa, Empresa Premium y Corporativo. O como módulo add-on API Integraciones (1.2 UF/mes) para otros planes.</p>
+                <p><strong>Documentación:</strong> Disponible en <a href="#">developers.contafacil.cl</a></p>
+                <p><strong>Autenticación:</strong> API Key + Secret (se generan en Configuración > API)</p>
+                <p><strong>Rate limits:</strong></p>
+                <ul>
+                    <li>PYME / Profesional Multi: 100 requests/min</li>
+                    <li>Empresa: 500 requests/min</li>
+                    <li>Empresa Premium / Corporativo: 2.000 requests/min</li>
+                </ul>
+                <p><strong>Integraciones pre-construidas:</strong> Shopify, WooCommerce, Mercado Libre, Bsale, Odoo, HubSpot CRM.</p>
+                <span class="tag">API</span> <span class="tag">integración</span> <span class="tag">desarrollo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN: SEGURIDAD -->
+    <div class="category" id="seguridad">
+        <h2>🔒 Seguridad y Respaldos</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Mis datos están seguros en ContaFácil?</div>
+            <div class="faq-answer">
+                <p>ContaFácil implementa múltiples capas de seguridad:</p>
+                <ul>
+                    <li><strong>Encriptación:</strong> Todos los datos se transmiten con TLS 1.3 y se almacenan encriptados con AES-256</li>
+                    <li><strong>Infraestructura:</strong> Servidores en AWS región Santiago (sa-east-1) con redundancia geográfica</li>
+                    <li><strong>Respaldos:</strong> Backups automáticos según tu plan (desde diarios hasta tiempo real)</li>
+                    <li><strong>Acceso:</strong> Autenticación de dos factores (2FA) disponible para todos los usuarios</li>
+                    <li><strong>Certificaciones:</strong> ISO 27001, SOC 2 Type II</li>
+                    <li><strong>Cumplimiento:</strong> Ley 19.628 de Protección de Datos Personales (Chile)</li>
+                </ul>
+                <p>Tu certificado digital (firma electrónica) se almacena en un HSM (Hardware Security Module) y nunca sale de nuestros servidores en texto plano.</p>
+                <span class="tag">seguridad</span> <span class="tag">encriptación</span> <span class="tag">respaldos</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-ad">
+        <strong>¿Necesitas ayuda personalizada?</strong><br>
+        Agenda una demo gratuita de 30 minutos con nuestro equipo<br>
+        <a href="#">contafacil.cl/demo</a>
+    </div>
+
+    <footer style="text-align: center; color: #999; font-size: 12px; padding: 20px; border-top: 1px solid #eee; margin-top: 30px;">
+        © 2026 ContaFácil SpA. Todos los derechos reservados.<br>
+        Santiago, Chile | soporte@contafacil.cl | +56 2 2345 6789
+    </footer>
+</body>
+</html>
